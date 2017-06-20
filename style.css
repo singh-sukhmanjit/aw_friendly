@@ -1,19 +1,21 @@
 #header .navbar-brand {
     color: #fff;
+    padding: 10px 15px;
 }
 
 #wrapper{
 	margin-bottom:16px;
+	margin-top:60px; 
 }
 
-#menu,#main,#sidebar
+#menu,#main,#sidebar, #chat
 {
 	height:600px;
 	background-color:#e9ebee;
 }
 
 #header{
-	background-color:#4267b2;
+	background-color:#3B5998;
 }
 
 footer{	
@@ -23,17 +25,13 @@ footer{
 	color:white !important;
 }
 
-.active a{
-	background-color:#4267b2 !important;
-}
-
-
 #header ul .glyphicon{
 	font-size:20px;
+	color: #0B121E;
 }
 
 #header{
-	height: 50px;
+	height: 43px !important;
 }
 
 #search-wrapper{
@@ -61,10 +59,6 @@ footer{
 	margin-left: 80px !important;
 }
 
-#header img{
-	border-radius: 50%;
-}
-
 #header ul li a{
 	padding-left: 10px;
 	padding-right: 10	px;
@@ -75,12 +69,15 @@ footer{
 }
 
 .hbreak{
-	border-left: 1px solid #e9ebee;
+	border-left: 1px solid #355089;
 	line-height: 50px;
 }
 
 .list-heading{
-	padding: 20px 15px 0 15px;
+	padding: 10px 15px 0 10px;
+	color: #4B4F56;
+	font-weight: 600;
+	font-size: 12px;
 }
 
 .panel-body .glyphicon {
@@ -104,4 +101,60 @@ footer{
 
 #main::-webkit-scrollbar {
     display: none;
+}
+
+#menu{
+	overflow: auto;
+}
+
+#menu::-webkit-scrollbar {
+    display: none;
+}
+
+.black-text{
+	color: #0B121E !important;
+}
+
+.dropdown-menu li a{
+	display: inline-block;
+	font-size: 14px;
+}
+
+.dropdown-menu{
+	width: 270px;
+}
+
+.dropdown-menu li{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#dd-heading{
+	font-size: 13px;
+	font-weight:600; 
+	padding-left: 20px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+#inline li{
+	display: inline-block;
+}
+
+
+
+#menu ul li a{
+	font-size: 13px;
+	color: #000;
+	padding:5px 15px;
+}
+#menu #inline li a{
+	padding: 5px 6px;
+	color: #365899;
+	font-size: 12px;
+
+}
+#menu #inline li{
+	margin: 0;
+	padding: 0;
 }

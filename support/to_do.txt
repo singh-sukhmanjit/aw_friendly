@@ -1,1 +1,11 @@
 To do
+	text-color
+	add-icons
+	show-numbers on right side	
+	addvideo
+
+
+
+
+fb header height
+responsive search box
