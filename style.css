@@ -15,7 +15,6 @@ body{
 
 #chat
 {
-	background-color: #fff;
 	height:600px;
 }
 
@@ -360,3 +359,12 @@ footer{
 #recm-pages h4{
 	padding-top: 10px;
 }
+
+#chat{
+	border-left: 1px solid #CCCCCC;
+}
+
+@media (min-width: 1200px){
+	#wrapper {
+    width: 1170px;
+  }
