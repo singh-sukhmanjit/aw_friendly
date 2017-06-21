@@ -265,21 +265,43 @@ footer{
 
 #news-ticker{
 	position: relative;
+	background-color: #fff;
+	margin-bottom: 20px;
 }
 
-.tab-content{
+#news-ticker li a{
+	border:none;
+}
+
+#news-ticker li.active a  {
+	border-bottom: 1px solid #3B5998;
+}
+
+#sidebar .list-group-item{
+	border:none;
+}
+
+#news-ticker .list-group{
+	margin-bottom: 0;
+}
+
+#news-ticker .list-group .glyphicon-triangle-bottom{
+	margin-left: 15px;
+}
+
+#sidebar .tab-content{
 	padding-top: 50px;
 }
 
-.list-group h4{
+#sidebar h4{
 	color: #3B5998 !important;
 }
 
-.list-group p{
+#sidebar p{
 	color: #000;
 }
 
-.list-group small{
+#sidebar small{
 	color: #A4A7AE;
 }
 
@@ -324,4 +346,17 @@ footer{
 #search-wrapper > button{
 	border-left: none;
 	}
+}
+
+#birthday{
+	background-color: #fff;
+	padding: 10px 10px 10px 15px;
+	margin-bottom: 20px;
+}
+
+#recm-pages{
+	background-color: #fff;
+}
+#recm-pages h4{
+	padding-top: 10px;
 }
