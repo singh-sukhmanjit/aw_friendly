@@ -1,3 +1,8 @@
+body{
+	font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+	background-color:#e9ebee;
+}
+
 #header .navbar-brand {
     color: #fff;
     padding: 10px 15px;
@@ -8,10 +13,10 @@
 	margin-top:60px; 
 }
 
-#menu,#main,#sidebar, #chat
+#chat
 {
+	background-color: #fff;
 	height:600px;
-	background-color:#e9ebee;
 }
 
 #header{
@@ -27,7 +32,7 @@ footer{
 
 #header ul .glyphicon{
 	font-size:20px;
-	color: #0B121E;
+	color: #fff;
 }
 
 #header{
@@ -184,6 +189,7 @@ footer{
 .hbreak
 {
 	margin-right: 5px;
+	margin-left: 5px;
 }
 
 #reactions img{
@@ -237,4 +243,55 @@ footer{
 
 .panel-body a {
 	color: #000;
+}
+
+#news-ticker ul li .glyphicon{
+	margin-left: -5px;
+}
+
+#news-ticker>p{
+	color: #A4A7AE;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 42px;
+	margin-left: 15px;
+}
+
+#news-ticker ul{
+	border-bottom: none;
+	position: absolute;
+	right: 10px;
+}
+
+#news-ticker{
+	position: relative;
+}
+
+.tab-content{
+	padding-top: 50px;
+}
+
+.list-group h4{
+	color: #3B5998 !important;
+}
+
+.list-group p{
+	color: #000;
+}
+
+.list-group small{
+	color: #A4A7AE;
+}
+
+#right-nav>li>a>.badge{
+	position: absolute;
+	top: 10px;
+	right: 6px;
+	border-radius: 25%;
+	padding: 3px 4px;
+	background-color: #FA3E3E;
+}
+
+#blue-text{
+	color: #365899 !important;
 }
