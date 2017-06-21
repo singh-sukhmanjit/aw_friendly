@@ -81,7 +81,7 @@ footer{
 }
 
 .panel-body .glyphicon {
-    margin-left: 10px;
+    margin-left: 30px;
     margin-right: 4px;
 }
 
@@ -157,4 +157,84 @@ footer{
 #menu #inline li{
 	margin: 0;
 	padding: 0;
+}
+
+#menu .badge{
+	position: absolute;
+	right: 10px;
+	font-size: 10px;
+	padding: 3px 4px;
+	color: #90949C;
+	background-color:transparent;
+}
+
+#menu-heading{
+	margin-bottom: 10px;
+}
+
+#header ul li a{
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+#header ul li .white-text{
+	margin-right: 10px;
+}
+
+.hbreak
+{
+	margin-right: 5px;
+}
+
+#reactions img{
+	margin: -2px;
+}
+
+.panel hr{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#reactions{
+	color: #90949C;
+}
+
+#rxn-right{
+	position: absolute;
+	right: 30px;
+}
+
+#rxn-right img{
+	margin-left: 30px;
+}
+
+.panel-title img{
+	float: left;
+	margin-right: 5px;
+}
+
+.panel-heading h3{
+	color:#3B5998;
+	font-weight: bold;
+}
+
+.panel-heading h5{
+	margin-top: 6px;
+}
+
+.panel-body{
+	position: relative;
+}
+
+.comments{
+	font-size: 14px;
+
+}
+
+.media-body h6{
+	margin: 0px;
+}
+
+.panel-body a {
+	color: #000;
 }
