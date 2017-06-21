@@ -295,3 +295,33 @@ footer{
 #blue-text{
 	color: #365899 !important;
 }
+
+@media (max-width: 767px) { 
+	#bs-example-navbar-collapse-1{
+		background-color:#3B5998;
+		height: 70px;
+
+	}
+
+	#bs-example-navbar-collapse-1 ul li{
+		display: inline-block;
+	}
+
+	#search-wrapper > input{
+	display: none;
+	}
+}
+
+@media (max-width: 991px){
+	#search-wrapper{
+	width: 204px;
+	}
+
+#search-wrapper > input{
+	width: 200px;
+	}
+
+#search-wrapper > button{
+	border-left: none;
+	}
+}
