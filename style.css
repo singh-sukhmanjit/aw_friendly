@@ -368,3 +368,42 @@ footer{
 	#wrapper {
     width: 1170px;
   }
+
+ .jumbotron{
+ 	background-color: #fff;
+ 	border-radius: 0 !important;
+ 	padding:0 !important;
+ 	margin-bottom: 0;
+ }
+
+ .jumbotron .nav-tabs li a{
+ 	border: none;
+ 	color: #000;
+ }
+
+ .jumbotron .nav-tabs{
+ 	background-color: #F6F7F9;
+ }
+
+ .jumbotron input{
+ 	border:none;
+ 	box-shadow: none;
+ }
+
+ .jumbotron .btn{
+ 	border-radius: 15px;
+ 	background-color: #F6F7F9;
+ 	color: #000;
+ 	font-weight: 600;
+ 	border: none;
+ }
+
+ .jumbotron .panel .glyphicon, .jumbotron .panel .fa-smile-o{
+ 	font-size: 16px;
+ 	margin-left: 0;
+ 	color: #89BE4A;
+ }
+
+.jumbotron .panel .btn:hover{
+ 	background-color: #DDDFE2 !important;
+ }
