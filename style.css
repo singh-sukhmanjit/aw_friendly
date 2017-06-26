@@ -35,17 +35,19 @@ footer{
 }
 
 #header{
-	height: 43px !important;
+	max-height: 35px !important;
 }
 
 #search-wrapper{
 	width: 404px;
 	display: inline-block;
 	position: relative;
+	height: 30px;
 }
 
 #search-wrapper > input{
 	width: 400px;
+	height: 30px;
 	border-right: none;
 	border-radius: 0px;
 	margin: 0;
@@ -57,6 +59,7 @@ footer{
 	position: absolute;
 	right: 0;
 	background-color: #e9ebee;
+	height: 30px;
 }
 
 .navbar-brand{
@@ -406,4 +409,10 @@ footer{
 
 .jumbotron .panel .btn:hover{
  	background-color: #DDDFE2 !important;
+ }
+
+ #main h3 small
+ {
+ 	font-size: 12px;
+ 	color: #A4A7AE;
  }
